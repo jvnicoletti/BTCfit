@@ -111,7 +111,7 @@ OUTPUTS:
 Although not part of the R package standard, we recommend creating a readme file that gives additional narrative description about your package. We recommend writing the file in Markdown or R Markdown [@allaire_rmarkdown:_2016]. To create the R Markdown file, use the following function from the usethis package:
 
 ```{r, echo=TRUE}
-MRE <- xlsx::read.xlsx("./inst/app/www/MRE_Script.xlsx",sheetIndex = 1) %>% 
+MRE <- xlsx::read.xlsx("./inst/app/www/MRE.xlsx",sheetIndex = 1) %>% 
   tidyr::as_tibble()
 
 fitted_MRE <- numerical_fit_TIME(MRE$Time,
