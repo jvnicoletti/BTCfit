@@ -120,7 +120,7 @@ package. We recommend writing the file in Markdown or R Markdown
 following function from the usethis package:
 
 ``` r
-MRE <- xlsx::read.xlsx("./inst/app/www/MRE.xlsx",sheetIndex = 1) %>% 
+MRE <- xlsx::read.xlsx("./inst/app/www/MRE_Script.xlsx",sheetIndex = 1) %>% 
   tidyr::as_tibble()
 
 fitted_MRE <- numerical_fit_TIME(MRE$Time,
