@@ -11,6 +11,8 @@ user-friendly way.
 Browse its [source code](https://github.com/jvnicoletti/BTCfit), or read
 this document for a tutorial.
 
+*Remember to update R lang and install dependencies
+
 # Brief descriptive overview of each function
 
 `numerical_fit_TIME()` - Performs the numerical adjustment of the
